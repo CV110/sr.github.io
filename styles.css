@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    
+}
+
+img {
+    width: 200px;
+    
+}
+
+.activities{
+    
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+
+#top{
+    background-image: url("asdd.png");
+    background-size: cover;
+    
+    padding: 30px 10px;    
+    color:whitesmoke;
+    text-shadow: 0 0 3px black;
+    
+    
+}
+#subtitle{
+    margin: 50px 14px 30px 14px;
+    
+}
+#p2{
+    
+    width:180px;
+    margin: 0 auto;
+}
+.img-border{
+    border: 5px solid green;
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+   
+    
+    border-radius: 20px;
+   
+}
+#bc{
+    margin: 0;
+    padding: 5px;
+    
+    background: linear-gradient(lightgreen, yellow);
+    border-top: 7px dotted orange;
+    border-bottom: 7px dotted orange;
+}
+#act1{
+    margin: 10px 0 0 0;
+}
+#act2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#card{
+    display:flex;
+    width:500px;
+    border-bottom: 8px solid #00b4d8;
+    background: #ddebf8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius:30px;
+    
+}
+
+#card-text{
+    padding: 20px;
+}
+#yoimg{
+    margin: 20px 7px 5px 10px;
+    border-radius: 4px;
+}
+
+.img-border:hover{
+    border: 5px solid orange;
+   
+    
+    border-radius: 20px;
+}
+#catarata{
+    background-image:url("catarata.png");
+    background-size: cover;
+        
+    
+}
+#rapel{
+    background-image:url("rappel.png");
+    background-size: cover;
+}
+#lugarest{
+    background-image:url("piscina.jpg");
+    background-size: cover;
+}
+
+#catarata:hover{
+    background-image:url("bayoz.jpg");
+    background-size: cover;
+        
+    
+}
+#rapel:hover{
+    background-image:url("caminata.jpg");
+    background-size: cover;
+        
+    
+}
+#lugarest:hover{
+    background-image:url("lg1.jpg");
+    background-size: cover;
+        
+    
+}
